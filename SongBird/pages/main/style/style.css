@@ -61,6 +61,16 @@ a {
     width: 150px;
   }
 }
+@media (max-width: 450px) {
+  .logo {
+    width: 100px;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    width: 90px;
+  }
+}
 
 .site-navigation {
   display: flex;
@@ -73,6 +83,16 @@ a {
 @media (max-width: 670px) {
   .li {
     margin-left: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .li {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .li {
+    margin-left: 5px;
   }
 }
 
