@@ -66,6 +66,11 @@ a {
     width: 100px;
   }
 }
+@media (max-width: 350px) {
+  .logo {
+    width: 90px;
+  }
+}
 
 .site-navigation {
   display: flex;
@@ -85,6 +90,11 @@ a {
     margin-left: 10px;
   }
 }
+@media (max-width: 350px) {
+  .li {
+    margin-left: 5px;
+  }
+}
 
 .link:hover,
 .link:focus {
@@ -95,6 +105,11 @@ a {
   display: flex;
   margin: auto 20px;
   text-transform: uppercase;
+}
+@media (max-width: 350px) {
+  .language {
+    margin: auto 0;
+  }
 }
 
 .en {
