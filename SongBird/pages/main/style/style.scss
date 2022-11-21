@@ -56,6 +56,12 @@ a {
     @media (max-width: 670px) {
         width: 150px;
     }
+    @media (max-width: 450px) {
+        width: 100px;
+    }
+    @media (max-width: 350px) {
+        width: 90px;
+    }
 }
 
 .site-navigation {
@@ -67,6 +73,12 @@ a {
     margin-left: 40px;
     @media (max-width: 670px) {
         margin-left: 20px;
+    }
+    @media (max-width: 450px) {
+        margin-left: 10px;
+    }
+    @media (max-width: 350px) {
+        margin-left: 5px;
     }
 }
 
